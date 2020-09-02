@@ -85,7 +85,7 @@ def move_right(grid):
 def get_current_status(mat):
     for i in range(4):
         for j in range(4):
-            if(mat[i][j]==16):
+            if(mat[i][j]==2048):
                 return 'WON'
     for i in range(4):
         for j in range(4):
